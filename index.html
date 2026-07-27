@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Bookmark landing page</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="w-6xl  mx-auto my-8 ">
+        <nav class="flex justify-between items-center py-5">
+          <img src="images/logo-bookmark.svg" alt>
+          <ul class="flex space-x-15 uppercase items-center text-sm tracking-widest text-blue-950  ">
+            <li class="hover:text-red-400">
+              <a href="#"> Features</a>
+            </li>
+            <li class="hover:text-red-400">
+              <a href="#"> Pricing</a>
+            </li>
+            <li class="hover:text-red-400">
+              <a href="#">Contact</a>
+            </li>
+            <li class ="bg-red-400 text-white px-5 py-3 border rounded  hover:bg-white hover:text-red-400 hover:border-red-400">
+              <a href="#"> Login</a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="w-6xl flex items-center justify-between mx-auto">
+            <div class="w-1/2 flex-col space-y-8">
+              <h1 class="text-5xl text-blue-950 font-rubik">A Simple Bookmark Manager</h1>
+              <p class="text-gray-300 text-medium font-rubik">A clean and simple interface to organize your favourite
+                websites.
+                Open a new
+                browser tab and see your sites load instantly. Try it for
+                free.</p>
+              <div class="flex items-center space-x-10"> 
+                  <a href="#" class="bg-blue-600 text-white p-4 border rounded-md box-shadow-xl hover:bg-white hover:text-blue-600">Get it on Chrome</a>
+                  <a href="#" class="bg-gray-100 text-blue-950 p-4 border-gray-100 rounded-md box-shadow-xl hover:bg-white hover:border-blue-950">Get it on Firefox</a>
+              </div>
+            </div>
+
+            <div class="w-1/2 relative">
+              <img class="border-16 rounded-2xl w-screen top-1" src="images/illustration-features-tab-1.svg" alt>
+              <div class="bg-amber-800 w-2.5xl h-72 absolute right-0 bottom-0" ></div>
+            </div>
+          </div>
+      </section>
+
+<section class="w-6xl mx-auto pt-40">
+
+  <div class="flex flex-col items-center space-y-5">
+    <h2 class="text-3xl font-bold font-rubik text-blue-950"> Features </h2>
+    <p class="text-gray-300 w-2xl text-center">Our aim is to make it quick and easy for you to access your
+      favourite websites. Your bookmarks sync between your devices so
+      you can access them on the go.
+    </p>
+
+    <div class="flex justify-center space-x-10">
+      <button class="buttons text-blue-950">Simple Bookmarking</button>
+      <button class="buttons text-blue-950">Speedy Searching</button>
+      <button class="buttons text-blue-950">Easy Sharing</button>
+    </div>
+  </div>
+
+  <div class="tabs py-20">
+    <div class="flex items-center justify-between">
+      <div class="relative w-1/2">
+        <img src="images/illustration-features-tab-1.svg" alt="">
+      </div>
+
+      <div class="w-1/2 flex flex-col space-y-5 ps-10">
+        <h2 class="text-3xl font-bold font-rubik text-blue-950">
+          Bookmark in one click
+        </h2>
+
+        <p class="text-gray-300">
+          Organize your bookmarks however you like. Our simple
+          drag-and-drop interface gives you complete control over how
+          you manage your favourite sites.
+        </p>
+
+        <button class="bg-blue-600 text-white px-6 py-4 rounded w-30 ">
+          More Info
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs hidden py-20">
+    <div class="flex items-center justify-between">
+      <div class="relative w-1/2">
+        <img src="images/illustration-features-tab-2.svg" alt="">
+      </div>
+
+      <div class="w-1/2 flex flex-col space-y-5 ps-10">
+        <h2 class="text-3xl font-bold font-rubik text-blue-950">
+          Intelligent search
+        </h2>
+
+        <p class="text-gray-300">
+          Our powerful search feature will help you find saved sites in
+          no time at all. No need to trawl through all of your bookmarks.
+        </p>
+
+        <button class="bg-blue-600 text-white px-6 py-4 rounded w-30 ">
+          More Info
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs hidden py-20">
+    <div class="flex items-center justify-between">
+      <div class="relative w-1/2">
+        <img src="images/illustration-features-tab-3.svg" alt="">
+      </div>
+
+      <div class="w-1/2 flex flex-col space-y-5 ps-10">
+        <h2 class="text-3xl font-bold font-rubik text-blue-950">
+          Share your bookmarks
+        </h2>
+
+        <p class="text-gray-300">
+          Easily share your bookmarks and collections with others.
+          Create a shareable link that you can send at the click of a
+          button.
+        </p>
+
+        <button class="bg-blue-600 text-white px-6 py-4 rounded w-30 ">
+          More Info
+        </button>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+      <section w-6xl mx-auto py-10  >
+            <div class="flex flex-col text-center justify-center items-center space-y-5">
+              <h2 class="text-3xl font-bold font-rubik text-blue-950 pt-20">Download the extension</h2>
+              <p class=" text-gray-300 w-2xl">We’ve got more browsers in the pipeline. Please do let us know
+                if you’ve got a favourite you’d like us to prioritize.</p>
+            </div>
+
+
+            <div class="flex space-x-35 justify-center my-10">
+              <div class="flex flex-col justify-between items-center space-y-4 border-gray-50 rounded p-10 text-center shadow-2xl">
+                <img  src="images/logo-chrome.svg" alt>
+                <h3 class=" text-blue-950 font-bold">Add to Chrome</h3>
+                <span class="text-gray-300">Minimum version 62</span>
+                <div>
+                  <button class="bg-blue-600 text-white p-3 text-sm items-start border rounded cursor-pointer hover:bg-white hover:text-blue-600 hover:border-blue-600 ">Add & Install Extension</button>
+                </div>
+                
+              </div>
+
+              <div class="flex flex-col justify-between items-center space-y-4 border-gray-50 rounded p-10 text-center shadow-2xl">
+                <img src="images/logo-firefox.svg" alt>
+                <h3 class=" text-blue-950 font-bold">Add to Firefox</h3>
+                <span class="text-gray-300">Minimum version 55</span>
+                <button class="bg-blue-600 text-white p-3 text-sm items-start border rounded cursor-pointer hover:bg-white hover:text-blue-600 hover:border-blue-600 ">Add & Install Extension</button>
+              </div>
+
+              <div class="flex flex-col justify-between items-center space-y-4 border-gray-50 rounded p-10 text-center shadow-2xl">
+                <img src="images/logo-opera.svg" alt>
+                <h3 class=" text-blue-950 font-bold">Add to Opera</h3>
+                <span class="text-gray-300">Minimum version 46</span>
+                <button class="bg-blue-600 text-white p-3 text-sm items-start border rounded cursor-pointer hover:bg-white hover:text-blue-600 hover:border-blue-600">Add & Install Extension</button>
+              </div>
+            </div>
+      </section>
+
+
+      <section w-6xl mx-auto py-10>
+          <div class="my-8 flex flex-col  items-center ">
+            <div class="flex flex-col text-center items-center space-y-4">
+              <h2 class="text-3xl font-bold font-rubik text-blue-950 pt-20">Frequently Asked Questions</h2>
+              <p class=" text-gray-300 w-2xl">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+            </div>
+
+            <div class="my-10 text-blue-950 max-w-xl mx-auto flex flex-col space-y-10">
+              <div class="faq" >
+              <div class="flex items-center justify-between">
+                <h3 class="text-left">What is Bookmark?</h3>
+                <img class="arrows" src="images/icon-arrow.svg" alt>
+              </div>
+              <p class="faq_answer hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidun justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+              </div>
+
+              <div class="class="faq>
+              <div class="flex  items-center justify-between">
+                <h3>How can I request a new browser?</h3>
+                <img class="arrows" src="images/icon-arrow.svg" alt>
+              </div>
+              <p class="faq_answer hidden">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,ultricies non ligula.Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies.Mauris augue massa,ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+              </div>
+
+              <div class="faq">
+              <div class="flex  items-center justify-between">
+                <h3>Is there a mobile app?</h3>
+                <img class="arrows" src="images/icon-arrow.svg" alt>
+              </div>
+
+              <p class="faq_answer hidden"> Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+              sollicitudin ex et ultricies bibendum.</p>
+              </div>
+
+              <div class="faq">
+               <div class="flex items-center justify-between">
+                <h3>What about other Chromium browsers?</h3>
+                <img class="arrows" src="images/icon-arrow.svg" alt>
+              </div>
+              <p class="faq_answer hidden"> Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+              </div>
+
+            </div>
+            <div class="flex justify-center p-10" >
+            <button class="bg-blue-600 text-red-50 p-3 border rounded ">More Info</button>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <footer w-6xl m-auto>
+      <div class="bg-blue-600 flex flex-col space-y-2 justify-center text-center p-10">
+        <p class="text-white">35,000+ already joined</p>
+        <h3 class="text-white">Stay up-to-date with what we’re doing</h3>
+        <div class="flex justify-center space-x-2">
+        <form action>
+          <label for="email"></label>
+          <input class="border-gray-50 bg-white rounded p-3" type="email" name="email" id="email"
+            placeholder="Enter your email address">
+        </form>
+          <button class="border-blue-600 bg-red-400 text-white rounded p-3">Contact Us</button>
+        </div>
+      </div>
+
+      <div class="bg-blue-950 flex justify-between px-19 py-10">
+        <div class="flex  space-x-5 text-white">
+          <img  src="images/logo-bookmark.svg" alt>
+          <ul class="flex space-x-5 ">
+            <li class="hover:text-red-400"><a href="#">Features</a></li>
+            <li class="hover:text-red-400"><a href="#">Pricing</a></li>
+            <li class="hover:text-red-400"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="flex space-x-5">
+          <img src="images/icon-facebook.svg" alt>
+          <img src="images/icon-twitter.svg" alt>
+        </div>
+      </div>
+    </footer>
+
+<script src="app.js"></script>
+  
+  </body>
+</html>
